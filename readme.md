@@ -1,35 +1,17 @@
-# INF99X: Sample Course
+﻿# データベースを Cosmos DB に移行する
 
-- **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
-- **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
-- **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
+このリポジトリには、ワークショップ**データベースを Cosmos DB に移行する**でのエクササイズ用の課題ドキュメントとソース コードが含まれています。 
 
-## What are we doing?
+## 課題 2: MongoDB を Cosmos DB に移行する
 
-- To support this course, we will need to make frequent updates to the course content to keep it current with the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
+この課題では、既存の MongoDB データベースを Cosmos DB に移行します。Azure Database Migration Service を使用します。代わりに、MongoDB データベースを使用して Cosmos DB データベースに接続する既存のアプリケーションを再構成する方法についても説明します。
 
-- We hope that this brings a sense of collaboration to the labs like we've never had before - when Azure changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
+この課題は、一連の IoT デバイスから温度データをキャプチャするシステム例に基づいています。温度は、タイムスタンプと共に MongoDB データベースに記録されます。各デバイスには一意の ID があります。これらのデバイスをシミュレートし、データベースにデータを保存する MongoDB アプリケーションを実行します。また、ユーザーが各デバイスに関する統計情報を照会できるようにする 2 つ目のアプリケーションも使用します。MongoDB から Cosmos DB にデータベースを移行した後、両方のアプリケーションを構成して Cosmos DB に接続し、それらが正しく機能することを確認します。
 
-## How should I use these files relative to the released MOC files?
+## 課題 3: Cassandra を Cosmos DB に移行
 
-- The instructor handbook and PowerPoints are still going to be your primary source for teaching the course content.
+この課題では、2 つのデータセットを Cassandra から Cosmos DB に移行します。データは 2 つの方法で移動します。まず、Cassandra からデータをエクスポートし、CQLSH COPY コマンドを使用してデータベースを Cosmos DB にインポートします。次に、Spark を使用してデータを移行します。移行が成功したことを確認するには、元の Cassandra データベースに保持されているデータを照会するアプリケーションを実行し、Cosmos DB に接続するようにアプリケーションを再構成します。再構成されたアプリケーションを実行した結果は、同じままである必要があります。
 
-- These files on GitHub are designed to be used in conjunction with the student handbook, but are in GitHub as a central repository so MCTs and course authors can have a shared source for the latest lab files.
+この課題シナリオは、e コマース システムに関するものです。顧客は商品の注文を行うことができます。顧客と注文の詳細は、Cassandra データベースに記録されます。顧客の注文の一覧、特定の製品の注文、注文数などのさまざまな集計など、要約を生成するアプリケーションがあります。
 
-- It will be recommended that for every delivery, trainers check GitHub for any changes that may have been made to support the latest Azure services, and get the latest files for their delivery.
-
-## What about changes to the student handbook?
-
-- We will review the student handbook on a quarterly basis and update through the normal MOC release channels as needed.
-
-## How do I contribute?
-
-- Any MCT can submit a pull request to the code or content in the GitHub repro, Microsoft and the course author will triage and include content and lab code changes as needed.
-
-- You can submit bugs, changes, improvement and ideas.  Find a new Azure feature before we have?  Submit a new demo!
-
-## Notes
-
-### Classroom Materials
-
-It is strongly recommended that MCTs and Partners access these materials and in turn, provide them separately to students.  Pointing students directly to GitHub to access Lab steps as part of an ongoing class will require them to access yet another UI as part of the course, contributing to a confusing experience for the student. An explanation to the student regarding why they are receiving separate Lab instructions can highlight the nature of an always-changing cloud-based interface and platform. Microsoft Learning support for accessing files on GitHub and support for navigation of the GitHub site is limited to MCTs teaching this course only.
+両方の課題は、Azure Cloud Shell と Azure portal を使用して実行されます。
