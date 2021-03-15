@@ -29,9 +29,9 @@ lab:
 
 ## メモ
 
-この課題の詳細な手順については、次で入手できます。https://github.com/MicrosoftLearning/DP-060T00A-Migrating-your-Database-to-Cosmos-DB/blob/master/Labs/Lab%203%20-%20Migrate%20Cassandra%20Workloads%20to%20Cosmos%20DB.md
+この課題の詳細な手順については、次で入手できます。https://github.com/MicrosoftLearning/DP-060JA-Migrating-your-Database-to-Cosmos-DB/blob/master/Labs/Lab%203%20-%20Migrate%20Cassandra%20Workloads%20to%20Cosmos%20DB.md
 
-この課題のすべてのファイルは、 https://github.com/MicrosoftLearning/DP-160T00A-Migrating-your-Database-to-Cosmos-DB にあります。
+この課題のすべてのファイルは、 https://github.com/MicrosoftLearning/DP-060JA-Migrating-your-Database-to-Cosmos-DB にあります。
 
 受講者は、課題を実行する前に、課題ファイルのコピーをダウンロードする必要があります。
 
