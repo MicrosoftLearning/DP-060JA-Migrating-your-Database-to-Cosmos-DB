@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Cassandra を Cosmos DB に移行'
     module: 'モジュール 3: Cassandra ワークロードを Cosmos DB に移行'
