@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'MongoDB を Cosmos DB に移行する'
     module: 'モジュール 2: MongoDB ワークロードを Cosmos DB に移行する'
