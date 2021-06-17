@@ -29,9 +29,9 @@ lab:
 
 ## メモ
 
-この演習の完全な手順は、https://github.com/MicrosoftLearning/DP-060T00A-Migrating-your-Database-to-Cosmos-DB/blob/master/Labs/Lab%202%20-%20Migrate%20MongoDB%20Workloads%20to%20Cosmos%20DB.md で入手できます。
+この演習の完全な手順は、https://github.com/MicrosoftLearning/DP-060JA-Migrating-your-Database-to-Cosmos-DB/blob/master/Labs/Lab%202%20-%20Migrate%20MongoDB%20Workloads%20to%20Cosmos%20DB.md で入手できます。
 
-この課題のすべてのファイルは、 https://github.com/MicrosoftLearning/DP-160T00A-Migrating-your-Database-to-Cosmos-DB にあります。
+この課題のすべてのファイルは、 https://github.com/MicrosoftLearning/DP-060JA-Migrating-your-Database-to-Cosmos-DB にあります。
 
 受講者は、課題を実行する前に、課題ファイルのコピーをダウンロードする必要があります。
 

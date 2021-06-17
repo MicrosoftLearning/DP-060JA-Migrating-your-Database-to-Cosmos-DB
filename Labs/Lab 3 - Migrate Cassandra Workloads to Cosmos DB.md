@@ -1,10 +1,16 @@
-﻿- [ラボ 3: Cassandra ワークロードを Cosmos DB に移行する](#lab-3-migrate-cassandra-workloads-to-cosmos-db)
-  - [演習 1: 設定](#exercise-1-setup)
-    - [タスク 1: リソース グループと Virtual Network を作成する](#task-1-create-a-resource-group-and-virtual-network)
-    - [タスク 2: Cassandra データベース サーバーを作成する](#task-2-create-a-cassandra-database-server)
-    - [タスク 3: Cassandra データベースにデータを読み込む](#task-3-populate-the-cassandra-database)
-  - [演習 2: CQLSH COPY コマンドを使用して Cassandra から Cosmos DB にデータを移行する](#exercise-2-migrate-data-from-cassandra-to-cosmos-db-using-the-cqlsh-copy-command)
-    - [タスク 1: Cosmos アカウントとデータベースを作成する](#task-1-create-a-cosmos-account-and-database)
+---
+lab:
+    title: 'Cassandra ワークロードを Cosmos DB に移行'
+    module: 'モジュール 3: Cassandra ワークロードを Cosmos DB に移行'
+---
+
+- [課題 3: Cassandra ワークロードを Cosmos DB に移行](#lab-3-migrate-cassandra-workloads-to-cosmos-db)
+  - [エクササイズ 1: セットアップ](#exercise-1-setup)
+    - [タスク 1: リソース グループと Virtual Network の作成](#task-1-create-a-resource-group-and-virtual-network)
+    - [タスク 2: Cassandra データベース サーバーの作成](#task-2-create-a-cassandra-database-server)
+    - [タスク 3: Cassandra データベースの設定](#task-3-populate-the-cassandra-database)
+  - [エクササイズ 2: CQLSH COPY コマンドを使用した Cassandra から Cosmos DB へのデータの移行](#exercise-2-migrate-data-from-cassandra-to-cosmos-db-using-the-cqlsh-copy-command)
+    - [タスク 1: Cosmos アカウントとデータベースの作成](#task-1-create-a-cosmos-account-and-database)
     - [タスク 2: Cassandra データベースからデータをエクスポートする](#task-2-export-the-data-from-the-cassandra-database)
     - [タスク 3: Cosmos DB にデータをインポートする](#task-3-import-the-data-to-cosmos-db)
     - [タスク 4: 正常にデータが移行されたことを検証する](#task-4-verify-that-data-migration-was-successful)

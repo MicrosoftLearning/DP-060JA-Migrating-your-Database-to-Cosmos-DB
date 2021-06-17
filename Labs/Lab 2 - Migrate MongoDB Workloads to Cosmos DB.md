@@ -1,4 +1,3 @@
-﻿
 # ラボ 2: MongoDB ワークロードを Cosmos DB に移行する
 <!-- TOC -->
 
